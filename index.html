@@ -15,22 +15,47 @@
     <div class="hero">
         <div class="navbar">
             <img src="logo.png" alt="axieinfinitylogo" class="logo">
-            <button>Sign up</button>
+            <button id="axieweb">Go to main axie</button>
         </div>
 
         <div class="content">
             <h1>Save! <br> your axie now!</h1>
-            <button>Submit</button>
+            <form id="myForm">
+                <label for="axieid">Axie Id:</label><br>
+                <input type="text" id="" name="axieid" value=""><br>
+                <br>
+                <button id="btn">Submit</button>
+                <script>
+                    function myFunction() {
+                        document.getElementById("myForm").reset();
+                    }
+                    document.getElementById("axieweb").href = "https://marketplace.axieinfinity.com/"
+
+                </script>
+
         </div>
         <div class="bubbles">
-        <img src="bubbles.png" alt="bubbles">
-        <img src="bubbles.png" alt="bubbles">
-        <img src="bubbles.png" alt="bubbles">
-        <img src="bubbles.png" alt="bubbles">
-        <img src="bubbles.png" alt="bubbles">
-        <img src="bubbles.png" alt="bubbles">
-        <img src="bubbles.png" alt="bubbles">
-    </div>
+            <img src="bubbles.png" alt="bubbles">
+            <img src="bubbles.png" alt="bubbles">
+            <img src="bubbles.png" alt="bubbles">
+            <img src="bubbles.png" alt="bubbles">
+            <img src="bubbles.png" alt="bubbles">
+            <img src="bubbles.png" alt="bubbles">
+            <img src="bubbles.png" alt="bubbles">
+        </div>
+        <div class="para">-
+            <p> ✨Features No Sign-up Required. You can use our Scholar Tracker without having to sign-up an account we
+                do want to keep
+                your privacy and security.
+                Monitor Daily SLP. We give you the power to monitor your Axie Infinity scholar's daily SLP grind use
+                this
+                tracker tool to encourage them and help them reach their target.
+                Retainable Data. Our solution is for you to regain, sync and maintain across any devices your scholars
+                data
+                for you to easily manage and track their performance.
+                Earnings Summary. View your unclaimed SLP and claimed SLP and it's local currency value gives you the
+                ability to forecast your ROI</p>.
+        </div>
     </div>
 
 

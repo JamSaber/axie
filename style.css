@@ -51,6 +51,22 @@ button:hover {
     z-index: 2;
 
 }
+.para{
+height: 100vh;
+display: grid;
+grid-template-rows: 5fr 4fr 2fr;
+grid-auto-flow: dense;
+grid-template-areas: 4;
+grid-row-start: 2;
+margin:5%;
+
+}
+p{
+    color:#fbfcfd;
+    margin: 10px 0 30px;
+    list-style: 80px;
+
+}
 
 h1 {
     font-size: 80px;
